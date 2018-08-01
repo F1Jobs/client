@@ -32,42 +32,46 @@ nav ul li {
   width: 32px;
 }
 
-.navbar-div{
+.navbar-div {
   z-index: 99;
 }
 
-.faq-link, .apply-btn-link{
+.faq-link, .apply-btn-link {
   text-decoration:none;
 }
 
-.team-title{
+.team-title {
   border-bottom: 1px solid #eee;
 }
 
-.team-title-col{
+.team-title-col {
   color: #4D5056;
 }
 
-.front-page{
+.front-page {
   margin-top: 25%;
 }
 
-.topper{
+.topper {
   height: 10rem;
 }
 
-.faq-topper{
+.faq-topper {
   height: 16rem;
 }
 
-.bottom-img{
+.bottom-img {
   margin-top: -12rem;
 }
 
-.apply-btn{
+.apply-btn {
   text-align: right;
 }
 
-.space-above-nav{
+.space-above-nav {
   height: 30rem;
+}
+
+.no-jobs{
+  color: #ff1800;
 }
