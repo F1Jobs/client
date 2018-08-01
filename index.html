@@ -36,16 +36,15 @@
 </head>
 
 <body>
-    
+
 
     <!-- Front Page, Container - 1
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
         <div class="row" style="margin-top: 25%">
             <div class="seven columns">
-                <h3>Formula 1 <b>Jobs</b></h3>
-                <p>A collection of available jobs at all the Formula 1 teams.
-                    <br>Fast, up-to-date and open-source. </p>
+                <h3>Formula 1 <strong>Jobs</strong></h3>
+                <p>A collection of available jobs at all the Formula 1 teams.<br>Fast, up-to-date and open-source.</p>
                 <a class="button button-primary" href="#jobs">View Job Listings</a>&nbsp;
                 <a class="button" href="#faqs">See FAQs</a>
             </div>
@@ -58,60 +57,58 @@
 
     <!-- Spacing Between Elements of Front Page and Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div style="height: 20em;"></div>
+    <div style="height: 30rem;"></div>
 
 
     <!-- Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div id="jobs" style="z-index: 99;">
-        <nav class="navbar">
-            <div class="container">
-                <ul class="navbar-list">
+<div id="jobs" class="navbar-div">
+    <nav class="nav">
+        <div class="container">
+            <ul >
+                <li title="Mercedes AMG Petronas Motorsport">
+                    <a href="#mercdata"><img class="standard-logo" src="images/logos/merc-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="Mercedes AMG Petronas Motorsport">
-                        <a class="navbar-link-initial" href="#mercdata"><img style="vertical-align:middle; width: 32px;" src="images/logos/merc-logo.png"></a>
-                    </li>
+                <li title="Scuderia Ferrari">
+                    <a href="#ferraridata"><img class="standard-logo" src="images/logos/ferrari-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="Scuderia Ferrari">
-                        <a class="navbar-link" href="#ferraridata"><img style="vertical-align:middle; width: 32px;" src="images/logos/ferrari-logo.png"></a>
-                    </li>
+                <li title="Aston Martin Red Bull Racing">
+                    <a href="#rbrdata"><img class="standard-logo" style="width: 40px;" src="images/logos/rbr-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="Aston Martin Red Bull Racing">
-                        <a class="navbar-link" href="#rbrdata"><img style="vertical-align:middle; width: 40px;" src="images/logos/rbr-logo.png"></a>
-                    </li>
+                <li title="Renault Sport Formula One Team">
+                    <a href="#renaultdata"><img class="standard-logo" style="width: 28px;" src="images/logos/renault-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="Renault Sport Formula One Team">
-                        <a class="navbar-link" href="#renaultdata"><img style="vertical-align:middle; width: 28px;" src="images/logos/renault-logo.png"></a>
-                    </li>
+                <li title="Sahara Force India F1 Team">
+                    <a href="#forcedata"><img class="standard-logo" src="images/logos/force-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="Sahara Force India F1 Team">
-                        <a class="navbar-link" href="#forcedata"><img style="vertical-align:middle; width: 32px;" src="images/logos/force-logo.png"></a>
-                    </li>
+                <li title="Haas F1 Team">
+                    <a href="#haasdata"><img class="standard-logo" src="images/logos/haas-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="Haas F1 Team">
-                        <a class="navbar-link" href="#haasdata"><img style="vertical-align:middle; width: 32px;" src="images/logos/haas-logo.png"></a>
-                    </li>
+                <li title="McLaren F1 Team">
+                    <a href="#mclarendata"><img class="standard-logo" style="width: 38px;" src="images/logos/mclaren-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="McLaren F1 Team">
-                        <a class="navbar-link" href="#mclarendata"><img style="vertical-align:middle; width: 38px;" src="images/logos/mclaren-logo.png"></a>
-                    </li>
+                <li title="Red Bull Toro Rosso Honda">
+                    <a href="#torodata"><img class="standard-logo" style="padding-top: 0.8rem; width: 42px;" src="images/logos/toro-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="Red Bull Toro Rosso Honda">
-                        <a class="navbar-link" href="#torodata"><img style="vertical-align:middle; width: 38px;" src="images/logos/toro-logo.png"></a>
-                    </li>
+                <li title="Alfa Romeo Sauber F1 Team">
+                    <a href="#sauberdata"><img class="standard-logo" style="width: 30px;" src="images/logos/sauber-logo.png"></a>
+                </li>
 
-                    <li class="navbar-item" title="Alfa Romeo Sauber F1 Team">
-                        <a class="navbar-link" href="#sauberdata"><img style="vertical-align:middle; width: 30px;" src="images/logos/sauber-logo.png"></a>
-                    </li>
-
-                    <li class="navbar-item" title="Williams Martini Racing">
-                        <a class="navbar-link" href="#williamsdata"><img style="vertical-align:middle; width: 32px;" src="images/logos/williams-logo.png"></a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
-    </div>
+                <li title="Williams Martini Racing">
+                    <a href="#williamsdata"><img class="standard-logo" src="images/logos/williams-logo.png"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
 
     <!-- Script to Maintain Navbar at the Top Once Scrolled Past
@@ -126,9 +123,9 @@
 
         <!-- Title - Mercedes
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="mercdata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="mercdata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee;">
-            <h4 style="color: #4D5056;"><b>Mercedes AMG Petronas Motorsport</b></h4>
+            <h4 style="color: #4D5056;"><strong>Mercedes AMG Petronas Motorsport</strong></h4>
         </div>
 
         <br>
@@ -142,7 +139,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -151,7 +148,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -160,16 +157,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- Title - Ferrari
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="ferraridata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="ferraridata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>Scuderia Ferrari</b></h4>
+            <h4 style="color: #4D5056;"><strong>Scuderia Ferrari</strong></h4>
         </div>
 
         <br>
@@ -183,7 +180,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -192,7 +189,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -201,16 +198,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- Title - Red Bull Racing
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="rbrdata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="rbrdata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>Aston Martin Red Bull Racing</b></h4>
+            <h4 style="color: #4D5056;"><strong>Aston Martin Red Bull Racing</strong></h4>
         </div>
 
         <br>
@@ -224,7 +221,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -233,7 +230,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -242,16 +239,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- Title - Renault
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="renaultdata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="renaultdata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>Renault Sport Formula One Team</b></h4>
+            <h4 style="color: #4D5056;"><strong>Renault Sport Formula One Team</strong></h4>
         </div>
 
         <br>
@@ -265,7 +262,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -274,7 +271,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -283,16 +280,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- Title - Force India
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="forcedata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="forcedata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>Sahara Force India F1 Team</b></h4>
+            <h4 style="color: #4D5056;"><strong>Sahara Force India F1 Team</strong></h4>
         </div>
 
         <br>
@@ -306,7 +303,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -315,7 +312,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -324,16 +321,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- Title - Haas F1
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="haasdata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="haasdata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>Haas F1 Team</b></h4>
+            <h4 style="color: #4D5056;"><strong>Haas F1 Team</strong></h4>
         </div>
 
         <br>
@@ -347,7 +344,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -356,7 +353,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -365,16 +362,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- Title - McLaren
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="mclarendata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="mclarendata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>McLaren F1 Team</b></h4>
+            <h4 style="color: #4D5056;"><strong>McLaren F1 Team</strong></h4>
         </div>
 
         <br>
@@ -388,7 +385,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -397,7 +394,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -406,7 +403,7 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -414,9 +411,9 @@
 
         <!-- Title - Toro Rosso
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="torodata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="torodata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>Red Bull Toro Rosso Honda</b></h4>
+            <h4 style="color: #4D5056;"><strong>Red Bull Toro Rosso Honda</strong></h4>
         </div>
 
         <br>
@@ -430,7 +427,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -439,7 +436,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -448,16 +445,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- Title - Sauber
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="sauberdata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="sauberdata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>Alfa Romeo Sauber F1 Team</b></h4>
+            <h4 style="color: #4D5056;"><strong>Alfa Romeo Sauber F1 Team</strong></h4>
         </div>
 
         <br>
@@ -471,7 +468,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -480,7 +477,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -489,16 +486,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- Title - Williams
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="williamsdata" style="margin-top: 4rem; height: 10rem;"></div>
+        <div id="williamsdata" style="height: 10rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee; ">
-            <h4 style="color: #4D5056;"><b>Williams Martini Racing</b></h4>
+            <h4 style="color: #4D5056;"><strong>Williams Martini Racing</strong></h4>
         </div>
 
         <br>
@@ -512,7 +509,7 @@
                 <p>NDT/UT Inspector - Early/Late Shift (Ref CH2044)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -521,7 +518,7 @@
                 <p>Technical Architect - Server & Storage (Ref CH2028)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
@@ -530,16 +527,16 @@
                 <p>Converged Infrastructure Specialist (Ref CH2048)</p>
             </div>
             <div class="two columns" style="text-align: right">
-                <a href="#" target="_blank" style="text-decoration:none;"><code><b>APPLY</b></code></a>
+                <a href="#" target="_blank" style="text-decoration:none;"><code><strong>APPLY</strong></code></a>
             </div>
         </div>
 
 
         <!-- FAQs Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <div id="faqs" style="margin-top: 4%; height: 16rem;"></div>
+        <div id="faqs" style="height: 16rem;"></div>
         <div class="row" style="border-bottom: 1px solid #eee;">
-            <h4 id="faqs">FAQs</h4></td>
+            <h4><strong>FAQs</strong></h4></td>
         </div>
         <br>
 
@@ -551,7 +548,7 @@
 
         <p>
             <h5>2. How frequently does it get updated?</h5></p>
-        <p>Any update to job listings at original sites gets updated here within <b>30 minutes</b>. Job listings don't change dramatically in a short period of time, so hitting the original sites for instantaneous updates would only make the site slower.</p>
+        <p>Any update to job listings at original sites gets updated here within <strong>30 minutes</strong>. Job listings don't change dramatically in a short period of time, so hitting the original sites for instantaneous updates would only make the site slower.</p>
         <br>
 
         <p>
@@ -562,7 +559,7 @@
 
         <p>
             <h5>4. I have some feedback. How can I contact you?</h5></p>
-        <p>You can find several ways of contacting me over at <a href="https://www.aydwi.com " target="_blank " style="text-decoration:none "><b>my website</b></a>.</p>
+        <p>You can find several ways of contacting me over at <a href="https://www.aydwi.com " target="_blank " style="text-decoration:none "><strong>my website</strong></a>.</p>
         <br>
 
         <p>
