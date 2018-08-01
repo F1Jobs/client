@@ -36,12 +36,20 @@ nav ul li {
   z-index: 99;
 }
 
-.faq-link{
+.faq-link, .apply-btn-link{
   text-decoration:none;
 }
 
 .team-title{
   border-bottom: 1px solid #eee;
+}
+
+.team-title-col{
+  color: #4D5056;
+}
+
+.front-page{
+  margin-top: 25%;
 }
 
 .topper{
@@ -54,4 +62,12 @@ nav ul li {
 
 .bottom-img{
   margin-top: -12rem;
+}
+
+.apply-btn{
+  text-align: right;
+}
+
+.space-above-nav{
+  height: 30rem;
 }
