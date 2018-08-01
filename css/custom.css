@@ -35,3 +35,23 @@ nav ul li {
 .navbar-div{
   z-index: 99;
 }
+
+.faq-link{
+  text-decoration:none;
+}
+
+.team-title{
+  border-bottom: 1px solid #eee;
+}
+
+.topper{
+  height: 10rem;
+}
+
+.faq-topper{
+  height: 16rem;
+}
+
+.bottom-img{
+  margin-top: -12rem;
+}
