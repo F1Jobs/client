@@ -331,20 +331,17 @@
     <script>
 
         const url = 'data/markup/MER'
-        
-        fetch(url)
-            .then(function(response) {
+
+        fetch(url).then(function(response) {
+            if(response.ok) {
                 return response.text();
-            })
-            .then(function(jobData) {
-                document.getElementById("MER-CONTENT").innerHTML = jobData;
-            });
-
-
-        //------------------------------------------------------------------
-
-
-        
+            }
+            throw new Error('Network response was NOT OK.');
+        }).then(function(jobData) { 
+            document.getElementById("MER-CONTENT").innerHTML = jobData;
+        }).catch(function(error) {
+            console.log('There was a problem with the FETCH operation: ', error.message);
+        });
 
     </script>
 
