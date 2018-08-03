@@ -107,11 +107,6 @@
 </div>
 
 
-    <!-- Script to Maintain Navbar at the Top Once Scrolled Past
-–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <script src="js/stickynav.js"></script>
-
-
     <!-- Job Data, Container - 2
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
@@ -328,22 +323,10 @@
     </div>
 
 
-    <script>
-
-        const url = 'data/markup/MER'
-
-        fetch(url).then(function(response) {
-            if(response.ok) {
-                return response.text();
-            }
-            throw new Error('Network response was NOT OK.');
-        }).then(function(jobData) { 
-            document.getElementById("MER-CONTENT").innerHTML = jobData;
-        }).catch(function(error) {
-            console.log('There was a problem with the FETCH operation: ', error.message);
-        });
-
-    </script>
+    <!-- Scripts to Maintain Navbar Position and Fetch Job Listings
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/stickynav.js"></script>
+    <script src="js/jobs.js"></script>
 
 
 </body>
