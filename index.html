@@ -329,25 +329,23 @@
 
 
     <script>
-        var fileDisplayArea = document.getElementById('MER-CONTENT');
-        function readTextFile(file)
-        {
-            var rawFile = new XMLHttpRequest();
-            rawFile.open("GET", file, false);
-            rawFile.onreadystatechange = function ()
-            {
-                if(rawFile.readyState === 4)
-                {
-                    if(rawFile.status === 200 || rawFile.status == 0)
-                    {
-                        var allText = rawFile.responseText;
-                        fileDisplayArea.innerHTML = allText 
-                    }
-                }
-            }
-            rawFile.send(null);
-        }
-    readTextFile("data/markup/MER");
+
+        const url = 'data/markup/MER'
+        
+        fetch(url)
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(jobData) {
+                document.getElementById("MER-CONTENT").innerHTML = jobData;
+            });
+
+
+        //------------------------------------------------------------------
+
+
+        
+
     </script>
 
 
