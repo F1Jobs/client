@@ -1,3 +1,3 @@
 # f1jobs-client
 
-The client side code for https://f1jobs.com
+The client side code for http://f1jobs.co
