@@ -44,8 +44,15 @@ nav ul li {
   border-bottom: 1px solid #eee;
 }
 
-.team-title-col {
-  color: #4D5056;
+.team-title-link{
+  text-decoration: none;
+  color: #444444;
+  
+}
+
+a.team-title-link:hover{
+  text-decoration: none;
+  color: #ff1800;
 }
 
 .front-page {
