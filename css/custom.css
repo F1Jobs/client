@@ -1,19 +1,71 @@
-nav {
-  width: 100%;
-  height: 6.6rem;
-  background: #fff;
-  border-top: 2px solid #eee;
-  border-bottom: 2px solid #eee;
-  line-height: 6.3rem;
+@media(max-width: 549px){
+  .front-page {
+    margin-top: 5%;
+  }
+  nav {
+    width: 100%;
+    height: 12.6rem;
+    background: #fff;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    line-height: 3.3rem;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .standard-logo {
+    vertical-align:middle;
+    width: 22px;
+    padding: 12px;
+  }
+  .topper{
+    height: 15rem;
+  }
+  .apply-btn {
+    text-align: right;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ff1800;
+  }
+  .bottom-img {
+    margin-top: -2rem;
+  }
+}
+@media(min-width: 550px){
+  nav {
+    width: 100%;
+    height: 6.6rem;
+    background: #fff;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    line-height: 6.3rem;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .topper {
+    height: 10rem;
+  }
+  .apply-btn {
+    text-align: right;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .bottom-img {
+    margin-top: -12rem;
+  }
 }
 
-nav ul {
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-  justify-content: space-between;
-}
 
 nav ul li {
   list-style: none;
@@ -59,20 +111,8 @@ a.team-title-link:hover{
   margin-top: 25%;
 }
 
-.topper {
-  height: 10rem;
-}
-
 .faq-topper {
   height: 16rem;
-}
-
-.bottom-img {
-  margin-top: -12rem;
-}
-
-.apply-btn {
-  text-align: right;
 }
 
 .space-above-nav {
