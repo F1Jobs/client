@@ -7,6 +7,7 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   justify-content: space-between;
@@ -71,13 +72,12 @@ a.team-title-link:hover{
 }
 .apply-btn {
   text-align: right;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ff1800;
 }
 @media(min-width: 320px) and (max-width: 339px){
   .standard-logo {
     padding: 10px;
-  }
-  nav ul {
-    flex-wrap: wrap;
   }
   nav {
     height: 12.6rem;
@@ -85,10 +85,6 @@ a.team-title-link:hover{
   }
   .topper{
     height: 14rem;
-  }
-  .apply-btn {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ff1800;
   }
   .bottom-img {
     margin-top: -2rem;
@@ -99,15 +95,8 @@ a.team-title-link:hover{
     padding: 12px;
     width: 32px;
   }
-  nav ul {
-    flex-wrap: wrap;
-  }
   .topper{
     height: 15rem;
-  }
-  .apply-btn {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ff1800;
   }
 }
 @media(min-width: 360px) and (max-width: 399px){
@@ -115,15 +104,8 @@ a.team-title-link:hover{
     padding: 14px;
     width: 32px;
   }
-  nav ul {
-    flex-wrap: wrap;
-  }
   .topper{
     height: 16rem;
-  }
-  .apply-btn {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ff1800;
   }
 }
 @media(min-width: 400px) and (max-width: 449px){
@@ -131,15 +113,8 @@ a.team-title-link:hover{
     padding: 16px;
     width: 32px;
   }
-  nav ul {
-    flex-wrap: wrap;
-  }
   .topper{
     height: 17rem;
-  }
-  .apply-btn {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ff1800;
   }
 }
 @media(min-width: 450px) and (max-width: 499px){
@@ -147,15 +122,8 @@ a.team-title-link:hover{
     padding: 19.5px;
     width: 32px;
   }
-  nav ul {
-    flex-wrap: wrap;
-  }
   .topper{
     height: 19rem;
-  }
-  .apply-btn {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ff1800;
   }
 }
 
@@ -167,18 +135,11 @@ a.team-title-link:hover{
     height: 16.6rem;
     line-height: 3.3rem;
   }
-  nav ul {
-    flex-wrap: wrap;
-  }
   .standard-logo {
     padding: 25px;
   }
   .topper{
     height: 20rem;
-  }
-  .apply-btn {
-    padding-bottom: 5px;
-    border-bottom: 1px solid #ff1800;
   }
 }
 @media(min-width: 550px){
