@@ -16,4 +16,4 @@ Cover and bottom images from [Wkimedia Commons](https://commons.wikimedia.org/wi
 
 ## Todo
 
-* Update README with more detailed description
+* Update README with more detailed description.
