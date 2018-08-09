@@ -6,7 +6,7 @@ The client side code for [f1jobs.co](https://f1jobs.co). It is mostly CSS, some 
 
 ## Introduction
 
-This repository contains everything that is required to load the website on your browser. It gets updated by an [external script](https://github.com/F1Jobs/updater/blob/master/getjobs.py) every `x` minutes. The website makes use of the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to request data from the `data/markup/` directory, which is valid markup, and set it as the content of the corresponding F1 teams' job sections. There are only two JavaScript files involved, `jobs.js` for making the aforementioned requests, and `stickynav.js`, which maintains the position of the navigation bar once scrolled past.
+This repository contains everything that is required to load the website on your browser. It gets updated by an [external script](https://github.com/F1Jobs/updater/blob/master/updater/getjobs.py) every `x` minutes. The website makes use of the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to request data from the `data/markup/` directory, which is valid markup, and set it as the content of the corresponding F1 teams' job sections. There are only two JavaScript files involved, `jobs.js` for making the aforementioned requests, and `stickynav.js`, which maintains the position of the navigation bar once scrolled past.
 
 ## Acknowledgements
 
