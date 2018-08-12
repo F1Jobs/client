@@ -1,4 +1,4 @@
-![ipiccy-image](https://user-images.githubusercontent.com/29029116/43997345-f10bc6a0-9df5-11e8-9212-c7e0134ce36f.png)
+![top-image](https://user-images.githubusercontent.com/29029116/43997345-f10bc6a0-9df5-11e8-9212-c7e0134ce36f.png)
 
 ## Introduction
 
