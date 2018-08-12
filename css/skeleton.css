@@ -41,6 +41,10 @@
   float: left;
   box-sizing: border-box; }
 
+.five.columns{
+  margin-top: 30px;
+}
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
@@ -64,7 +68,7 @@
   .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
   .four.columns                   { width: 30.6666666667%; }
-  .five.columns                   { width: 39.3333333333%; }
+  .five.columns                   { width: 39.3333333333%; margin-top: 0;}
   .six.columns                    { width: 48%;            }
   .seven.columns                  { width: 56.6666666667%; }
   .eight.columns                  { width: 65.3333333333%; }

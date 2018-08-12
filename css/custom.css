@@ -1,20 +1,17 @@
 nav {
   width: 100%;
-  height: 6.6rem;
   background: #fff;
   border-top: 2px solid #eee;
   border-bottom: 2px solid #eee;
-  line-height: 6.3rem;
 }
-
 nav ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   justify-content: space-between;
 }
-
 nav ul li {
   list-style: none;
   flex-grow: 1;
@@ -59,20 +56,8 @@ a.team-title-link:hover{
   margin-top: 25%;
 }
 
-.topper {
-  height: 10rem;
-}
-
 .faq-topper {
   height: 16rem;
-}
-
-.bottom-img {
-  margin-top: -12rem;
-}
-
-.apply-btn {
-  text-align: right;
 }
 
 .space-above-nav {
@@ -81,4 +66,99 @@ a.team-title-link:hover{
 
 .no-jobs{
   color: #ff1800;
+}
+.standard-logo {
+  vertical-align:middle;
+}
+.apply-btn {
+  text-align: right;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ff1800;
+}
+@media(min-width: 320px) and (max-width: 339px){
+  .standard-logo {
+    padding: 10px;
+  }
+  nav {
+    height: 12.6rem;
+    line-height: 3.3rem;
+  }
+  .topper{
+    height: 14rem;
+  }
+  .bottom-img {
+    margin-top: -2rem;
+  }
+}
+@media(min-width: 340px) and (max-width: 359px){
+  .standard-logo {
+    padding: 12px;
+    width: 32px;
+  }
+  .topper{
+    height: 15rem;
+  }
+}
+@media(min-width: 360px) and (max-width: 399px){
+  .standard-logo {
+    padding: 14px;
+    width: 32px;
+  }
+  .topper{
+    height: 16rem;
+  }
+}
+@media(min-width: 400px) and (max-width: 449px){
+  .standard-logo {
+    padding: 16px;
+    width: 32px;
+  }
+  .topper{
+    height: 17rem;
+  }
+}
+@media(min-width: 450px) and (max-width: 499px){
+  .standard-logo {
+    padding: 19.5px;
+    width: 32px;
+  }
+  .topper{
+    height: 19rem;
+  }
+}
+
+@media(min-width: 500px) and (max-width: 549px){
+  .front-page {
+    margin-top: 5%;
+  }
+  nav {
+    height: 16.6rem;
+    line-height: 3.3rem;
+  }
+  .standard-logo {
+    padding: 25px;
+  }
+  .topper{
+    height: 20rem;
+  }
+}
+@media(min-width: 550px){
+  nav {
+    height: 6.6rem;
+    line-height: 6.3rem;
+  } 
+  nav ul {
+    flex-wrap: nowrap;
+  }
+  .topper {
+    height: 10rem;
+  }
+  .apply-btn {
+    text-align: right;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .bottom-img {
+    margin-top: -12rem;
+  }
 }
