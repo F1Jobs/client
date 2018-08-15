@@ -6,7 +6,7 @@
 // content of correspong <div> tags.
 
 const url = 'data/markup/'
-var allConstructors = ['MER', 'FER', 'RBR', 'REN', 'HAS', 'MCL', 'TOR', 'SAU', 'WIL'];
+var allConstructors = ['MER', 'FER', 'RBR', 'REN', 'SFI', 'HAS', 'MCL', 'TOR', 'SAU', 'WIL'];
 
 function fetchJobContent(url, cid) {
     fetch(url).then(function(response) {
