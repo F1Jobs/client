@@ -12,4 +12,4 @@ This repository contains the code and resources to render the website. Job data 
 
 * Boilerplate CSS from [Skeleton](http://getskeleton.com/).
 
-* Cover and bottom images from [Wkimedia Commons](https://commons.wikimedia.org/wiki/File:F1-composite-NEW.png) and [Unsplash](https://unsplash.com/photos/ECju13NcBzg) respectively.
+* Cover and bottom images from [Wkimedia Commons](https://commons.wikimedia.org/wiki/File:F1-composite-NEW.png) and [Unsplash](https://unsplash.com/photos/ECju13NcBzg) respectively
